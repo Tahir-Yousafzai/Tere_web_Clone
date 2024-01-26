@@ -1,0 +1,56 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.navbar{
+height: 110px;
+background: #FFFFFF;
+}
+.navbar-brand img{
+width: 80%;
+}
+.nav-item a{
+font-family: sans-serif;
+font-size: 17px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+}
+.d-flex button{
+background-color: #75BF7A;
+font-family: sans-serif;
+font-size: 17px;
+font-weight: 500;
+line-height: 27px;
+color: #fff;
+letter-spacing: 0em;
+text-align: left;
+}
+.d-flex button:hover{
+background-color: #75BF7A;
+font-family: sans-serif;
+font-size: 17px;
+font-weight: 500;
+line-height: 27px;
+color: #fff;
+letter-spacing: 0em;
+text-align: left;
+}
+h1.display-4 {
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.paragraph_banner{
+font-family: sans-serif;
+color: #9E9DA2;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.baner-img{
+    height: 582.81px;
+}
