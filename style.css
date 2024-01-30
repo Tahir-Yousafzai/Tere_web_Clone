@@ -1,56 +1,181 @@
-*{
-margin: 0px;
-padding: 0px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
-.navbar{
-height: 110px;
-background: #FFFFFF;
+
+.navbar {
+    height: 110px;
+    background: #fff;
 }
-.navbar-brand img{
-width: 80%;
+
+.navbar-brand img {
+    width: 80%;
 }
-.nav-item a{
-font-family: sans-serif;
-font-size: 17px;
-font-weight: 500;
-line-height: 21px;
-letter-spacing: 0em;
-text-align: left;
+
+.navbar-toggler {
+    border: none !important;
 }
-.d-flex button{
-background-color: #75BF7A;
-font-family: sans-serif;
-font-size: 17px;
-font-weight: 500;
-line-height: 27px;
-color: #fff;
-letter-spacing: 0em;
-text-align: left;
+
+.nav-btn-1 {
+    background-color: #75BF7A;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5.9px;
 }
-.d-flex button:hover{
-background-color: #75BF7A;
-font-family: sans-serif;
-font-size: 17px;
-font-weight: 500;
-line-height: 27px;
-color: #fff;
-letter-spacing: 0em;
-text-align: left;
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        height: auto !important;
+    }
+
+    .navbar-brand img {
+        width: 60%;
+    }
+
+    .nav-item {
+        display: flex !important;
+        justify-content: center !important;
+
+    }
+
+    .theme-btn {
+        display: flex;
+        justify-content: center;
+    }
 }
-h1.display-4 {
-    font-weight: 700;
+
+/* yaha tak navbar ki styling hai */
+
+
+.banner-content h1 {
+    font-family:sans-serif;
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 15px;
+    font-weight: 800;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.banner-para-1 {
     font-family: sans-serif;
-}
-.paragraph_banner{
-font-family: sans-serif;
-color: #9E9DA2;
-font-size: 24px;
-font-weight: 500;
-line-height: 28px;
-letter-spacing: 0em;
-text-align: left;
+    color: #9E9DA2;
+    font-size: 24px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
-.baner-img{
-    height: 582.81px;
+
+.banner-left{
+    /* padding: 20px; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
+
+.banner-img-1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+@media only screen and (max-width: 1024px){
+    .banner-content h1 {
+        font-size: 38px;
+        
+    }   
+}
+@media only screen and (max-width: 768px){
+    .banner-content h1 {
+        font-size: 28px;
+        line-height: 40px;
+        
+    }   
+    .banner-para-1{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .banner-btn img{
+        width: 130px;
+    }  
+}
+@media only screen and (max-width: 485px){
+    .banner-content h1 {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        margin-top: 30px;
+        
+    }   
+    .banner-para-1{
+        font-size: 17px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .banner-btn img{
+        width: 130px;
+    } 
+    .banner-btn{
+        display: flex;
+        justify-content: center;
+    } 
+    .banner{
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (max-width: 385px){
+    .banner-content h1 {
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        margin-top: 30px;
+        
+    }   
+    .banner-para-1{
+        font-size: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .banner-btn img{
+        width: 130px;
+    } 
+    .banner-btn{
+        display: flex;
+        justify-content: center;
+    } 
+    .banner{
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (max-width: 320px){
+    .banner-content h1 {
+        font-size: 22px;
+        line-height: 40px;
+        text-align: center;
+        margin-top: 30px;
+        
+    }   
+    .banner-para-1{
+        font-size: 16.5px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .banner-btn img{
+        width: 130px;
+    } 
+    .banner-btn{
+        display: flex;
+        justify-content: center;
+    } 
+    .banner{
+        flex-direction: column-reverse;
+    }
+}
+
